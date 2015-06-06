@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	private Rigidbody2D _body;
 	
-	private int _jumpSpeed = 1;
+	private int _jumpSpeed = 2;
 	private int _jumpCount;
 
 	void Start () {
@@ -23,11 +23,11 @@ public class PlayerMovement : MonoBehaviour {
 
 	private void Move(){
 		Vector2 moveVel = _body.velocity;
-		moveVel.x = Input.GetAxis(Methods.HORIZONTAL);
+		moveVel.x = Input.GetAxis(Inputs.HORIZONTAL);
 		moveVel.y = 0;
 
 
-		if(Input.GetKey(KeyCode.Space)){
+		if(Input.GetButton(Inputs.Y)){
 			moveVel.y = _jumpSpeed;
 			_jumpCount++;
 			Jump();
@@ -35,19 +35,19 @@ public class PlayerMovement : MonoBehaviour {
 		_body.velocity = moveVel * _speed;
 	}
 	private void Jump(){
-		if(_jumpCount >= 15 || Input.GetKeyUp(KeyCode.Space)){
+		if(_jumpCount >= 13 || Input.GetButtonUp(Inputs.Y)){
 			_jumpSpeed = 0;
 		}
 	}
 	private void OnCollisionEnter2D(Collision2D other){
 		_jumpCount = 0;
-		_jumpSpeed = 1;
+		_jumpSpeed = 2;
 	}
 	private void Rotate(){
 		Vector2 rot = new Vector2(transform.localScale.x,transform.localScale.y);
 		rot.y = 0.3f;
 
-		float x = Input.GetAxisRaw(Methods.HORIZONTAL);
+		float x = Input.GetAxisRaw(Inputs.HORIZONTAL);
 
 		if(x > 0f){
 			rot.x = 0.3f;

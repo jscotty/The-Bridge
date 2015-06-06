@@ -29,11 +29,9 @@ public class BoatAnim : MonoBehaviour {
 		Rotate();
 	}
 	private void Rotate(){
-		//print(transform.position.x + " | movex " + _moveX);
-		//1.3 \\ -0.9
-		if(transform.position.x >= 1.3f){
+		if(transform.position.x >= 5.9f){
 			_moveX -= 0.01f;
-		} else if(transform.position.x <= -0.9f){
+		} else if(transform.position.x <= -6.5f){
 			_moveX += 0.01f;
 			
 		}
