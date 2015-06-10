@@ -10,9 +10,10 @@ public class PlayerMovement : MonoBehaviour {
 	
 	private int _jumpSpeed = 2;
 	private int _jumpCount;
+	private bool _isJumping = false;
 
 	void Start () {
-		_body = GetComponent<Rigidbody2D>();
+		_body = GetComponent<Rigidbody2D>();LoadingScreen.isLoading = false;
 	}
 	
 	// Update is called once per frame
@@ -26,35 +27,47 @@ public class PlayerMovement : MonoBehaviour {
 		moveVel.x = Input.GetAxis(Inputs.HORIZONTAL);
 		moveVel.y = 0;
 
-
-		if(Input.GetButton(Inputs.Y)){
+		if(Input.GetButton(Inputs.A)){
 			moveVel.y = _jumpSpeed;
+			_isJumping = true;
 			_jumpCount++;
 			Jump();
 		}
 		_body.velocity = moveVel * _speed;
 	}
 	private void Jump(){
-		if(_jumpCount >= 13 || Input.GetButtonUp(Inputs.Y)){
+		if(_jumpCount >= 13 || Input.GetButtonUp(Inputs.A)){
 			_jumpSpeed = 0;
+			_isJumping = false;
 		}
 	}
 	private void OnCollisionEnter2D(Collision2D other){
 		_jumpCount = 0;
 		_jumpSpeed = 2;
+		_isJumping = false;
 	}
 	private void Rotate(){
-		Vector2 rot = new Vector2(transform.localScale.x,transform.localScale.y);
-		rot.y = 0.3f;
-
-		float x = Input.GetAxisRaw(Inputs.HORIZONTAL);
-
-		if(x > 0f){
-			rot.x = 0.3f;
-		} else if(x < 0f){
-			rot.x = -0.3f;
+		if(!Pause.isPaused){
+			Vector2 rot = new Vector2(transform.localScale.x,transform.localScale.y);
+			rot.y = 1f;
+			
+			float x = Input.GetAxisRaw(Inputs.HORIZONTAL);
+			
+			if(x > 0f){
+				rot.x = 1f;
+			} else if(x < 0f){
+				rot.x = -1f;
+			}
+			
+			transform.localScale = rot;
 		}
-
-		transform.localScale = rot;
 	}
+
+	#region getters and setters
+	public bool isJumping{
+		get{
+			return _isJumping;
+		}
+	}
+	#endregion
 }

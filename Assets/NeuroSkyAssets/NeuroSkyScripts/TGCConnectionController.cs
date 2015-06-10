@@ -29,7 +29,6 @@ public class TGCConnectionController : MonoBehaviour {
 	public event UpdateFloatValueDelegate UpdateHighBetaEvent;
 	public event UpdateFloatValueDelegate UpdateLowGammaEvent;
 	public event UpdateFloatValueDelegate UpdateHighGammaEvent;
-	
 
 	void Start () {
 		Connect();
@@ -51,12 +50,12 @@ public class TGCConnectionController : MonoBehaviour {
 		    byte[] myWriteBuffer = Encoding.ASCII.GetBytes(@"{""enableRawOutput"": true, ""format"": ""Json""}");
 		    stream.Write(myWriteBuffer, 0, myWriteBuffer.Length);
 			
-			InvokeRepeating("ParseData",0.1f,0.02f);
+			InvokeRepeating("ParseData",0.1f,0.04f);
 		}
 	}
 	
 	void ParseData(){
-	    if(stream.CanRead){
+		if(stream.CanRead){
 	      try { 
 	        int bytesRead = stream.Read(buffer, 0, buffer.Length);
 	
@@ -65,7 +64,6 @@ public class TGCConnectionController : MonoBehaviour {
 	        foreach(string packet in packets){
 	          if(packet.Length == 0)
 	            continue;
-	
 	          IDictionary primary = (IDictionary)JsonConvert.Import(typeof(IDictionary), packet);
 	
 	          if(primary.Contains("poorSignalLevel")){
@@ -78,7 +76,7 @@ public class TGCConnectionController : MonoBehaviour {
 	              IDictionary eSense = (IDictionary)primary["eSense"];
 				  if(UpdateAttentionEvent != null){
 					 UpdateAttentionEvent(int.Parse(eSense["attention"].ToString()));
-				   }		
+				   }	
 				  if(UpdateMeditationEvent != null){
 					 UpdateMeditationEvent(int.Parse(eSense["meditation"].ToString()));
 				   }
@@ -114,15 +112,15 @@ public class TGCConnectionController : MonoBehaviour {
 	            }
 	          }
 	          else if(primary.Contains("rawEeg") && UpdateRawdataEvent != null){
-					  UpdateRawdataEvent(int.Parse(primary["rawEeg"].ToString()));
+						UpdateRawdataEvent(int.Parse(primary["rawEeg"].ToString()));
 	          }
 	          else if(primary.Contains("blinkStrength") && UpdateBlinkEvent != null){
 					  UpdateBlinkEvent(int.Parse(primary["blinkStrength"].ToString()));
 	          }
 	        }
 	      }
-	      catch(IOException e){ Debug.Log("IOException " + e); }
-	      catch(System.Exception e){ Debug.Log("Exception " + e); }
+			catch(IOException e){ Debug.Log("IOException " + e); LoadingScreen.isLoading = false; }
+			catch(System.Exception e){ Debug.Log("Exception " + e); LoadingScreen.isLoading = false;}
 	    }		
 		
 	}// end ParseData

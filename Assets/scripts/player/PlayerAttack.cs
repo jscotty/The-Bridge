@@ -3,16 +3,27 @@ using System.Collections;
 
 public class PlayerAttack : MonoBehaviour {
 
+	[SerializeField]
+	private TGCConnectionController _tgcc;
+
 	private bool _attack = false;
 
+	void Start(){
+		_tgcc.UpdateBlinkEvent += ReturnDelBlink;
+	}
+
 	void Update () {
-		if(Input.GetButtonDown(Inputs.A)){
+		if(Input.GetButtonDown(Inputs.X)){
 			_attack = true;
 		}
 	}
 
 	void StopAttack(){
 		_attack = false;
+	}
+
+	void ReturnDelBlink(int value){
+		_attack = true;
 	}
 
 	#region Getter and Setter
