@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class EnemyAttack : MonoBehaviour {
-
+	
 	[SerializeField]
-	private PlayerData _playerData;
+	private PlayerHandler _playerHandler;
 
 	private EnemyMovement _enemyMovement;
 
@@ -17,6 +18,11 @@ public class EnemyAttack : MonoBehaviour {
 	void Start () {
 		_enemyMovement = GetComponent<EnemyMovement>();
 		_range = _enemyMovement.range;
+
+		if(_playerHandler == null){
+			GameObject player = GameObject.FindGameObjectWithTag("Player");
+			_playerHandler = player.GetComponent<PlayerHandler>();
+		}
 	}
 
 	void Update () {
@@ -32,17 +38,19 @@ public class EnemyAttack : MonoBehaviour {
 
 	public void Damage(){
 		float range = _range * transform.localScale.x;
-		print("range("+range+") dif("+_difX+")");
+		//print("range("+range+") dif("+_difX+")");
 
 		if(range == _range){
-			if(_difX < -_range){
+			if(_difX > -_range){
 				print(_difX + " | attack");
+				_playerHandler.TakeDamage();
 			}
-		} /*else if(range == -_range){
+		} else if(range == -_range){
 			if(_difX < _range){
 				print(_difX + " | attack");
+				_playerHandler.TakeDamage();
 			}
-		}*/
+		}
 
 	}
 

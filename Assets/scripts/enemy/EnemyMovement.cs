@@ -18,6 +18,10 @@ public class EnemyMovement : MonoBehaviour {
 	void Start () {
 		_body = GetComponent<Rigidbody2D>();
 		_scal = transform.localScale.x;
+
+		if(_player == null){
+			_player = GameObject.FindGameObjectWithTag("Player");
+		}
 	}
 
 	void Update () {

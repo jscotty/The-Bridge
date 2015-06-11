@@ -24,6 +24,7 @@ public class PlayerAttack : MonoBehaviour {
 
 	void ReturnDelBlink(int value){
 		_attack = true;
+		//print("blink: " + value);
 	}
 
 	#region Getter and Setter

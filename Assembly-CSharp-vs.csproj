@@ -46,12 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EnemyAnimation.cs" />
      <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\DisplayData.cs" />
      <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\PreserveGameObject.cs" />
      <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\TGCConnectionController.cs" />
-     <Compile Include="Assets\scripts\ColorChanger.cs" />
+     <Compile Include="Assets\PlayerHandler.cs" />
+     <Compile Include="Assets\ScreenShake.cs" />
+     <Compile Include="Assets\scripts\enemy\EnemyAnimation.cs" />
      <Compile Include="Assets\scripts\enemy\EnemyAttack.cs" />
+     <Compile Include="Assets\scripts\enemy\EnemyData.cs" />
      <Compile Include="Assets\scripts\enemy\EnemyMovement.cs" />
      <Compile Include="Assets\scripts\player\PlayerAnimation.cs" />
      <Compile Include="Assets\scripts\player\PlayerAttack.cs" />
@@ -59,6 +61,7 @@
      <Compile Include="Assets\scripts\player\PlayerMovement.cs" />
      <Compile Include="Assets\scripts\props\BoatAnim.cs" />
      <Compile Include="Assets\scripts\props\CloudMovement.cs" />
+     <Compile Include="Assets\scripts\props\ColorChanger.cs" />
      <Compile Include="Assets\scripts\references\Inputs.cs" />
      <Compile Include="Assets\scripts\references\Levels.cs" />
      <Compile Include="Assets\scripts\ui\LoadingScreen.cs" />

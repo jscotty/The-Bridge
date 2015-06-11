@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour {
 		_body.velocity = moveVel * _speed;
 	}
 	private void Jump(){
-		if(_jumpCount >= 13 || Input.GetButtonUp(Inputs.A)){
+		if(_jumpCount >= 11 || Input.GetButtonUp(Inputs.A)){
 			_jumpSpeed = 0;
 			_isJumping = false;
 		}
