@@ -56,6 +56,7 @@ public class EnemyAttack : MonoBehaviour {
 
 	public void StopAttack(){
 		_enemyMovement.stopMove = false;
+		_enemyMovement.dir = 1;
 		_attack = false;
 	}
 

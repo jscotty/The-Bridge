@@ -43,8 +43,9 @@ public class EnemyMovement : MonoBehaviour {
 		} else {
 			_dir = 0f;
 		}
-		if(_stopMove)
+		if(_stopMove){
 			_dir = 0f;
+		}
 
 		moveVel.x = _dir;
 
@@ -67,6 +68,9 @@ public class EnemyMovement : MonoBehaviour {
 	public float dir{
 		get{
 			return _dir;
+		}
+		set{
+			_dir = value;
 		}
 	}
 	public float difX{
