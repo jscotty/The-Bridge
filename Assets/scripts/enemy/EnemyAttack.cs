@@ -20,7 +20,7 @@ public class EnemyAttack : MonoBehaviour {
 		_range = _enemyMovement.range;
 
 		if(_playerHandler == null){
-			GameObject player = GameObject.FindGameObjectWithTag("Player");
+			GameObject player = GameObject.FindGameObjectWithTag(Tags.PLAYER);
 			_playerHandler = player.GetComponent<PlayerHandler>();
 		}
 	}
@@ -42,12 +42,12 @@ public class EnemyAttack : MonoBehaviour {
 
 		if(range == _range){
 			if(_difX > -_range){
-				print(_difX + " | attack");
+				//print(_difX + " | attack");
 				_playerHandler.TakeDamage();
 			}
 		} else if(range == -_range){
 			if(_difX < _range){
-				print(_difX + " | attack");
+				//print(_difX + " | attack");
 				_playerHandler.TakeDamage();
 			}
 		}

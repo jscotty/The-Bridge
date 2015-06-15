@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: bcf268d0a52869e488d713fee6ad9b8f
+timeCreated: 1434353351
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Art_Enemy3_Attack_0
+    21300002: Art_Enemy3_Attack_1
+    21300004: Art_Enemy3_Attack_2
+    21300006: Art_Enemy3_Attack_3
+    21300008: Art_Enemy3_Attack_4
+    21300010: Art_Enemy3_Attack_5
+    21300012: Art_Enemy3_Attack_6
+    21300014: Art_Enemy3_Attack_7
+    21300016: Art_Enemy3_Attack_8
+    21300018: Art_Enemy3_Attack_9
+    21300020: Art_Enemy3_Attack_10
+    21300022: Art_Enemy3_Attack_11
+    21300024: Art_Enemy3_Attack_12
+    21300026: Art_Enemy3_Attack_13
+    21300028: Art_Enemy3_Attack_14
+    21300030: Art_Enemy3_Attack_15
+    21300032: Art_Enemy3_Attack_16
+    21300034: Art_Enemy3_Attack_17
+    21300036: Art_Enemy3_Attack_18
+    21300038: Art_Enemy3_Attack_19
+    21300040: Art_Enemy3_Attack_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Art_Enemy3_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1673
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1673
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1673
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1673
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1673
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1298
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1298
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1298
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1298
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1298
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 923
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 923
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 923
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 923
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 923
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 548
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 548
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 548
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 548
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 173
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -20,7 +20,7 @@ public class EnemyMovement : MonoBehaviour {
 		_scal = transform.localScale.x;
 
 		if(_player == null){
-			_player = GameObject.FindGameObjectWithTag("Player");
+			_player = GameObject.FindGameObjectWithTag(Tags.PLAYER);
 		}
 	}
 

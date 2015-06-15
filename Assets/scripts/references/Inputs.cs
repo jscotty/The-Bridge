@@ -7,7 +7,7 @@ public class Inputs : MonoBehaviour {
 	public const string VERTICAL = "Vertical";
 	public const string A = "Fire1";
 	public const string B = "Fire2";
-	public const string X = "Fire3";
+	public const string X = "Fire3";//Fire3
 	public const string Y = "Jump";
 	public const string START = "Paused";
 }

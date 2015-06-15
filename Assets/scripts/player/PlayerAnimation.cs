@@ -21,23 +21,23 @@ public class PlayerAnimation : MonoBehaviour {
 		_isJumping = _playerMovement.isJumping;
 
 		if(_attack){
-			_anim.SetBool("Attack", true);
+			_anim.SetBool(Animations.ATTACK, true);
 		} else if(!_attack){
-			_anim.SetBool("Attack", false);
+			_anim.SetBool(Animations.ATTACK, false);
 		}
 
 		if(Input.GetAxis(Inputs.HORIZONTAL) == 0){
-			_anim.SetBool("Idle", true);
-			_anim.SetBool("Walk", false);
+			_anim.SetBool(Animations.IDLE, true);
+			_anim.SetBool(Animations.WALK, false);
 		} else {
-			_anim.SetBool("Walk", true);
-			_anim.SetBool("Idle", false);
+			_anim.SetBool(Animations.WALK, true);
+			_anim.SetBool(Animations.IDLE, false);
 		}
 
 		if(_isJumping){
-			_anim.SetBool("Jump", true);
+			_anim.SetBool(Animations.JUMP, true);
 		}else{
-			_anim.SetBool("Jump", false);
+			_anim.SetBool(Animations.JUMP, false);
 		}
 	}
 }
