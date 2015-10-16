@@ -13,7 +13,7 @@ Please take a look at this code:<br><br>
 I used delegates for the first time with this project:<br>
 [PlayerHandler](https://github.com/jscotty/The-Bridge/blob/master/Assets/scripts/player/PlayerHandler.cs)<br><br>
 
-[Background ColorChanger component script](https://github.com/jscotty/The-Bridge/blob/master/Assets/scripts/props/ColorChanger.cs)<br>
+[Background ColorChanger component script](https://github.com/jscotty/The-Bridge/blob/master/Assets/scripts/props/ColorChanger.cs)<br><br>
 [EnemyAttack](https://github.com/jscotty/The-Bridge/blob/master/Assets/scripts/enemy/EnemyAttack.cs)<br><br>
 
 The enemy's are falling often from the bridge.<br>
