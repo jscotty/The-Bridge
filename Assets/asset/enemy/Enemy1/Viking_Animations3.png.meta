@@ -1,9 +1,39 @@
 fileFormatVersion: 2
 guid: 7e4cf19e727414f4da2fcabc76d7ae90
-timeCreated: 1434352233
+timeCreated: 1434362609
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Viking_Animations3_0
+    21300002: Viking_Animations3_1
+    21300004: Viking_Animations3_2
+    21300006: Viking_Animations3_3
+    21300008: Viking_Animations3_4
+    21300010: Viking_Animations3_5
+    21300012: Viking_Animations3_6
+    21300014: Viking_Animations3_7
+    21300016: Viking_Animations3_8
+    21300018: Viking_Animations3_9
+    21300020: Viking_Animations3_10
+    21300022: Viking_Animations3_11
+    21300024: Viking_Animations3_12
+    21300026: Viking_Animations3_13
+    21300028: Viking_Animations3_14
+    21300030: Viking_Animations3_15
+    21300032: Viking_Animations3_16
+    21300034: Viking_Animations3_17
+    21300036: Viking_Animations3_18
+    21300038: Viking_Animations3_19
+    21300040: Viking_Animations3_20
+    21300042: Viking_Animations3_21
+    21300044: Viking_Animations3_22
+    21300046: Viking_Animations3_23
+    21300048: Viking_Animations3_24
+    21300050: Viking_Animations3_25
+    21300052: Viking_Animations3_26
+    21300054: Viking_Animations3_27
+    21300056: Viking_Animations3_28
+    21300058: Viking_Animations3_29
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,7 +78,307 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Viking_Animations3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1778
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1778
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1778
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_3
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1778
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_4
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1778
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_5
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1778
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_6
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1778
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1508
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1508
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_9
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1508
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_10
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1508
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_11
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1508
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_12
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1508
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_13
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1508
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1238
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_15
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1238
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_16
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1238
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_17
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1238
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_18
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1238
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_19
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1238
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_20
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1238
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_22
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 968
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_23
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 968
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_24
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 968
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_25
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 968
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_26
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 968
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_27
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 968
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 698
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Viking_Animations3_29
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 698
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

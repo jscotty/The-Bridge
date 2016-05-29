@@ -1,9 +1,30 @@
 fileFormatVersion: 2
 guid: 978a5019ded4fd1459393c33d4ebfa56
-timeCreated: 1434352234
+timeCreated: 1434355132
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Art_Enemy3_Falling_0
+    21300002: Art_Enemy3_Falling_1
+    21300004: Art_Enemy3_Falling_2
+    21300006: Art_Enemy3_Falling_3
+    21300008: Art_Enemy3_Falling_4
+    21300010: Art_Enemy3_Falling_5
+    21300012: Art_Enemy3_Falling_6
+    21300014: Art_Enemy3_Falling_7
+    21300016: Art_Enemy3_Falling_8
+    21300018: Art_Enemy3_Falling_9
+    21300020: Art_Enemy3_Falling_10
+    21300022: Art_Enemy3_Falling_11
+    21300024: Art_Enemy3_Falling_12
+    21300026: Art_Enemy3_Falling_13
+    21300028: Art_Enemy3_Falling_14
+    21300030: Art_Enemy3_Falling_15
+    21300032: Art_Enemy3_Falling_16
+    21300034: Art_Enemy3_Falling_17
+    21300036: Art_Enemy3_Falling_18
+    21300038: Art_Enemy3_Falling_19
+    21300040: Art_Enemy3_Falling_20
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,7 +69,217 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Art_Enemy3_Falling_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1678
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1678
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_2
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1678
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_3
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1678
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_4
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1678
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1308
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1308
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_7
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1308
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_8
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1308
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_9
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1308
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 938
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 938
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_12
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 938
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_13
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 938
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_14
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 938
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_16
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 568
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_17
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 568
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_18
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 568
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_19
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 568
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Falling_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

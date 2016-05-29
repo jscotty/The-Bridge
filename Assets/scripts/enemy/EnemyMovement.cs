@@ -7,10 +7,11 @@ public class EnemyMovement : MonoBehaviour {
 	private int _speed;
 	[SerializeField]
 	private GameObject _player;
+	[SerializeField]
+	private float _range = 1.2f;
 
 	private float _difX;
 	private float _dir = 1;
-	private float _range = 1.2f;
 	private float _scal;
 	private Rigidbody2D _body;
 	private bool _stopMove;

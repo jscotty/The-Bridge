@@ -46,9 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AttentionLevel.cs" />
+     <Compile Include="Assets\EndType.cs" />
+     <Compile Include="Assets\HealthText.cs" />
+     <Compile Include="Assets\HighscoreTxtHandler.cs" />
      <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\DisplayData.cs" />
      <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\PreserveGameObject.cs" />
      <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\TGCConnectionController.cs" />
+     <Compile Include="Assets\ScoreHandler.cs" />
+     <Compile Include="Assets\scripts\NeuroskyTest.cs" />
      <Compile Include="Assets\scripts\enemy\EnemyAnimation.cs" />
      <Compile Include="Assets\scripts\enemy\EnemyAttack.cs" />
      <Compile Include="Assets\scripts\enemy\EnemyData.cs" />
@@ -65,14 +71,18 @@
      <Compile Include="Assets\scripts\props\ColorChanger.cs" />
      <Compile Include="Assets\scripts\props\ScreenShake.cs" />
      <Compile Include="Assets\scripts\references\Animations.cs" />
+     <Compile Include="Assets\scripts\references\ComponentNames.cs" />
      <Compile Include="Assets\scripts\references\Inputs.cs" />
      <Compile Include="Assets\scripts\references\Levels.cs" />
+     <Compile Include="Assets\scripts\references\Prefs.cs" />
      <Compile Include="Assets\scripts\references\Tags.cs" />
      <Compile Include="Assets\scripts\ui\LoadingScreen.cs" />
      <Compile Include="Assets\scripts\ui\MenuControll.cs" />
      <Compile Include="Assets\scripts\ui\MenuHandler.cs" />
      <Compile Include="Assets\scripts\ui\Pause.cs" />
+     <Compile Include="Assets\teste.cs" />
      <None Include="Assets\NeuroSkyAssets\NeuroSkyTGCController\Readme.txt" />
+     <None Include="Assets\codeandweb.com\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

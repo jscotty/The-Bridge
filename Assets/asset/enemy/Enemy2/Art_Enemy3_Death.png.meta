@@ -1,9 +1,30 @@
 fileFormatVersion: 2
 guid: 5f6d3b35293facf40b389bf386b19ea5
-timeCreated: 1434352233
+timeCreated: 1434355102
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Art_Enemy3_Death_0
+    21300002: Art_Enemy3_Death_1
+    21300004: Art_Enemy3_Death_2
+    21300006: Art_Enemy3_Death_3
+    21300008: Art_Enemy3_Death_4
+    21300010: Art_Enemy3_Death_5
+    21300012: Art_Enemy3_Death_6
+    21300014: Art_Enemy3_Death_7
+    21300016: Art_Enemy3_Death_8
+    21300018: Art_Enemy3_Death_9
+    21300020: Art_Enemy3_Death_10
+    21300022: Art_Enemy3_Death_11
+    21300024: Art_Enemy3_Death_12
+    21300026: Art_Enemy3_Death_13
+    21300028: Art_Enemy3_Death_14
+    21300030: Art_Enemy3_Death_15
+    21300032: Art_Enemy3_Death_16
+    21300034: Art_Enemy3_Death_17
+    21300036: Art_Enemy3_Death_18
+    21300038: Art_Enemy3_Death_19
+    21300040: Art_Enemy3_Death_20
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,7 +69,217 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Art_Enemy3_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1678
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1678
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_2
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1678
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_3
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1678
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_4
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1678
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1308
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1308
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_7
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1308
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_8
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1308
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_9
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1308
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 938
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 938
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_12
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 938
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_13
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 938
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_14
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 938
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_16
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 568
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_17
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 568
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_18
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 568
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_19
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 568
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Art_Enemy3_Death_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 370
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

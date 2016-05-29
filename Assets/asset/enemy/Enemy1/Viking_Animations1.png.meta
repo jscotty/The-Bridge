@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c85d11be415cad847906ba7c95218c1f
-timeCreated: 1434352502
+timeCreated: 1434356463
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -73,69 +73,69 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1773
-        width: 260
-        height: 275
+        y: 1778
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_1
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1773
-        width: 260
-        height: 275
+        x: 270
+        y: 1778
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_2
       rect:
         serializedVersion: 2
-        x: 520
-        y: 1773
-        width: 260
-        height: 275
+        x: 540
+        y: 1778
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_3
       rect:
         serializedVersion: 2
-        x: 780
-        y: 1773
-        width: 260
-        height: 275
+        x: 810
+        y: 1778
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_4
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 1773
-        width: 260
-        height: 275
+        x: 1080
+        y: 1778
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_5
       rect:
         serializedVersion: 2
-        x: 1300
-        y: 1773
-        width: 260
-        height: 275
+        x: 1350
+        y: 1778
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_6
       rect:
         serializedVersion: 2
-        x: 1560
-        y: 1773
-        width: 260
-        height: 275
+        x: 1620
+        y: 1778
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,69 +143,69 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1498
-        width: 260
-        height: 275
+        y: 1508
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_8
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1498
-        width: 260
-        height: 275
+        x: 270
+        y: 1508
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_9
       rect:
         serializedVersion: 2
-        x: 520
-        y: 1498
-        width: 260
-        height: 275
+        x: 540
+        y: 1508
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_10
       rect:
         serializedVersion: 2
-        x: 780
-        y: 1498
-        width: 260
-        height: 275
+        x: 810
+        y: 1508
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_11
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 1498
-        width: 260
-        height: 275
+        x: 1080
+        y: 1508
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_12
       rect:
         serializedVersion: 2
-        x: 1300
-        y: 1498
-        width: 260
-        height: 275
+        x: 1350
+        y: 1508
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_13
       rect:
         serializedVersion: 2
-        x: 1560
-        y: 1498
-        width: 260
-        height: 275
+        x: 1620
+        y: 1508
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,59 +213,59 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1223
-        width: 260
-        height: 275
+        y: 1238
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_15
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1223
-        width: 260
-        height: 275
+        x: 270
+        y: 1238
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_16
       rect:
         serializedVersion: 2
-        x: 520
-        y: 1223
-        width: 260
-        height: 275
+        x: 540
+        y: 1238
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_17
       rect:
         serializedVersion: 2
-        x: 780
-        y: 1223
-        width: 260
-        height: 275
+        x: 810
+        y: 1238
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_18
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 1223
-        width: 260
-        height: 275
+        x: 1080
+        y: 1238
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Viking_Animations1_19
       rect:
         serializedVersion: 2
-        x: 1300
-        y: 1223
-        width: 260
-        height: 275
+        x: 1350
+        y: 1238
+        width: 270
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

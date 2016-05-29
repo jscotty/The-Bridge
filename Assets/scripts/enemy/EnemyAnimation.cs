@@ -32,23 +32,29 @@ public class EnemyAnimation : MonoBehaviour {
 			
 			if(_attack){
 				_anim.SetBool(Animations.ATTACK, true);
+				_anim.SetBool(Animations.WALK, false);
 			} else {
 				_anim.SetBool(Animations.ATTACK, false);
+				_anim.SetBool(Animations.WALK, true);
 			}
 		}
 	}
 
 	void Die(){
-		_died = true;
 		int ranNmr = Mathf.FloorToInt(Random.Range(0,10));
-		
-		if (ranNmr <= 8) {
-			_anim.SetBool(Animations.DEAD, true);
-			_body.isKinematic = true;
-		} else {
-			_anim.SetBool(Animations.DEAD_FALLING, true);
+
+		if(!_died){
+			if (ranNmr <= 4) {
+				_anim.SetBool(Animations.DEAD, true);
+				_body.isKinematic = true;
+			} else {
+				_anim.SetBool(Animations.DEAD_FALLING, true);
+				_body.isKinematic = false;
+			}
 		}
 		_enemyMovement.stopMove = true;
 		_collider.isTrigger = true;
+		_died = true;
+
 	}
 }

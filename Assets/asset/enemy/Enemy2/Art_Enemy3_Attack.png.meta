@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bcf268d0a52869e488d713fee6ad9b8f
-timeCreated: 1434353351
+timeCreated: 1434354861
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -74,49 +74,49 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1673
-        width: 375
-        height: 375
+        y: 1679
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_1
       rect:
         serializedVersion: 2
-        x: 375
-        y: 1673
-        width: 375
-        height: 375
+        x: 370
+        y: 1679
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_2
       rect:
         serializedVersion: 2
-        x: 750
-        y: 1673
-        width: 375
-        height: 375
+        x: 740
+        y: 1679
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_3
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 1673
-        width: 375
-        height: 375
+        x: 1110
+        y: 1679
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_4
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 1673
-        width: 375
-        height: 375
+        x: 1480
+        y: 1679
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,99 +124,99 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1298
-        width: 375
-        height: 375
+        y: 1310
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_6
       rect:
         serializedVersion: 2
-        x: 375
-        y: 1298
-        width: 375
-        height: 375
+        x: 370
+        y: 1310
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_7
       rect:
         serializedVersion: 2
-        x: 750
-        y: 1298
-        width: 375
-        height: 375
+        x: 740
+        y: 1310
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_8
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 1298
-        width: 375
-        height: 375
+        x: 1110
+        y: 1310
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_9
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 1298
-        width: 375
-        height: 375
+        x: 1480
+        y: 1310
+        width: 370
+        height: 369
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 923
-        width: 375
-        height: 375
+        y: 941
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_11
       rect:
         serializedVersion: 2
-        x: 375
-        y: 923
-        width: 375
-        height: 375
+        x: 370
+        y: 941
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_12
       rect:
         serializedVersion: 2
-        x: 750
-        y: 923
-        width: 375
-        height: 375
+        x: 740
+        y: 941
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_13
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 923
-        width: 375
-        height: 375
+        x: 1110
+        y: 941
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_14
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 923
-        width: 375
-        height: 375
+        x: 1480
+        y: 941
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,49 +224,49 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 548
-        width: 375
-        height: 375
+        y: 572
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_16
       rect:
         serializedVersion: 2
-        x: 375
-        y: 548
-        width: 375
-        height: 375
+        x: 370
+        y: 572
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_17
       rect:
         serializedVersion: 2
-        x: 750
-        y: 548
-        width: 375
-        height: 375
+        x: 740
+        y: 572
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_18
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 548
-        width: 375
-        height: 375
+        x: 1110
+        y: 572
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Art_Enemy3_Attack_19
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 548
-        width: 375
-        height: 375
+        x: 1480
+        y: 572
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,9 +274,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 173
-        width: 375
-        height: 375
+        y: 203
+        width: 370
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

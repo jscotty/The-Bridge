@@ -65,7 +65,6 @@ public class EnemySpawner : MonoBehaviour
             // Check if random is in chance
             if (rnd < item.chance)
             {
-                print("Spawn item: " + item.Enemy.name);
                 SpawnEnemy(item.Enemy);
                 break;
             }

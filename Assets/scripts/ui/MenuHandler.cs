@@ -29,20 +29,20 @@ public class MenuHandler : MonoBehaviour {
 	void Update(){
 		if(Input.GetAxis(Inputs.VERTICAL) < 0f){
 			_count ++;
-			if(_count >= 5){
+			if(_count >= 10){
 				_activeCount ++;
 				_button ++;
 				_count = 0;
 			}
 		} else if(Input.GetAxis(Inputs.VERTICAL) > 0f){
 			_count ++;
-			if(_count >= 5){
+			if(_count >= 10){
 				_activeCount --;
 				_button --;
 				_count = 0;
 			}
 		} else {
-			_count = 0;
+			_count = 9;
 		}
 		if(_activeCount >= _maxCount){
 			_activeCount = 1;

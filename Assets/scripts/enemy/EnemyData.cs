@@ -7,6 +7,8 @@ public class EnemyData : MonoBehaviour {
 	private int _health;
 	[SerializeField]
 	private int _damage;
+	[SerializeField]
+	private int _score;
 
 
 	public int damage {
@@ -24,6 +26,15 @@ public class EnemyData : MonoBehaviour {
 		}
 		set {
 			_health = value;
+		}
+	}
+	
+	public int score {
+		get {
+			return _score;
+		}
+		set {
+			_score = value;
 		}
 	}
 

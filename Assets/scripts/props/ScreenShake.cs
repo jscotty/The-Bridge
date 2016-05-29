@@ -32,7 +32,7 @@ public class ScreenShake : MonoBehaviour {
 		}
 	}
 
-	void Shake(){
+	void Shake(int value){
 		_shake = true;
 	}
 

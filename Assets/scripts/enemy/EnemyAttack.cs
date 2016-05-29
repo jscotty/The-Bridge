@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class EnemyAttack : MonoBehaviour {
-	
-	[SerializeField]
+
 	private PlayerHandler _playerHandler;
 
 	private EnemyMovement _enemyMovement;
+	private EnemyData _enemyData;
 
 	private float _dir;
 	private float _difX;
@@ -17,12 +17,12 @@ public class EnemyAttack : MonoBehaviour {
 
 	void Start () {
 		_enemyMovement = GetComponent<EnemyMovement>();
+		_enemyData = GetComponent<EnemyData>();
 		_range = _enemyMovement.range;
 
-		if(_playerHandler == null){
 			GameObject player = GameObject.FindGameObjectWithTag(Tags.PLAYER);
 			_playerHandler = player.GetComponent<PlayerHandler>();
-		}
+
 	}
 
 	void Update () {
@@ -34,21 +34,25 @@ public class EnemyAttack : MonoBehaviour {
 		} else {
 			_enemyMovement.stopMove = false;
 		}
+		
+
+
 	}
 
 	public void Damage(){
+
 		float range = _range * transform.localScale.x;
 		//print("range("+range+") dif("+_difX+")");
 
 		if(range == _range){
-			if(_difX > -_range){
-				//print(_difX + " | attack");
-				_playerHandler.TakeDamage();
+			if(_difX >= 0f){
+			} else if(_difX > -_range){
+				_playerHandler.TakeDamage(_enemyData.damage);
 			}
 		} else if(range == -_range){
 			if(_difX < _range){
-				//print(_difX + " | attack");
-				_playerHandler.TakeDamage();
+				_playerHandler.TakeDamage(_enemyData.damage);
+			} else if(_difX <= 0f){
 			}
 		}
 
@@ -67,5 +71,6 @@ public class EnemyAttack : MonoBehaviour {
 			return _attack;
 		}
 	}
+
 	#endregion
 }

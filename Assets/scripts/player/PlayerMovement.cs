@@ -11,9 +11,11 @@ public class PlayerMovement : MonoBehaviour {
 	private int _jumpSpeed = 2;
 	private int _jumpCount;
 	private bool _isJumping = false;
+	private bool _isMoving = true;
 
 	void Start () {
-		_body = GetComponent<Rigidbody2D>();LoadingScreen.isLoading = false;
+		_body = GetComponent<Rigidbody2D>();
+		LoadingScreen.isLoading = false;
 	}
 	
 	// Update is called once per frame
@@ -33,7 +35,9 @@ public class PlayerMovement : MonoBehaviour {
 			_jumpCount++;
 			Jump();
 		}
-		_body.velocity = moveVel * _speed;
+		if(_isMoving){
+			_body.velocity = moveVel * _speed;
+		}
 	}
 	private void Jump(){
 		if(_jumpCount >= 11 || Input.GetButtonUp(Inputs.A)){
@@ -67,6 +71,14 @@ public class PlayerMovement : MonoBehaviour {
 	public bool isJumping{
 		get{
 			return _isJumping;
+		}
+	}
+	public bool isMoving{
+		get{
+			return _isMoving;
+		}
+		set{
+			_isMoving = value;
 		}
 	}
 	#endregion

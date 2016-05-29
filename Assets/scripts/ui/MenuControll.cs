@@ -6,6 +6,11 @@ public class MenuControll : MonoBehaviour {
 	[SerializeField]
 	private TGCConnectionController _tgcc;
 
+	[SerializeField]
+	private GameObject _credits;
+	[SerializeField]
+	private GameObject _buttons;
+
 	private MenuHandler _menuHandler;
 	private int _activeCount;
 
@@ -14,6 +19,7 @@ public class MenuControll : MonoBehaviour {
 		_menuHandler = GetComponent<MenuHandler>();
 
 		_tgcc.UpdateBlinkEvent += ReturnDelBlink;
+		_tgcc.UpdatePoorSignalEvent += ReturnSignal;
 	}
 
 	void Update(){
@@ -22,7 +28,17 @@ public class MenuControll : MonoBehaviour {
 			if(_activeCount == 1){
 				LoadingScreen.isLoading = true;
 				Application.LoadLevel(Levels.GAME_JUSTIN);
+			} else if(_activeCount == 2){
+				_credits.SetActive(true);
+				_buttons.SetActive(false);
+			} else if(_activeCount == 4){
+				LoadingScreen.isLoading = true;
+				print("quit");
+				Application.Quit();
 			}
+		} else if(Input.GetButton(Inputs.B)){
+			_credits.SetActive(false);
+			_buttons.SetActive(true);
 		}
 	}
 
@@ -32,5 +48,9 @@ public class MenuControll : MonoBehaviour {
 			//Application.LoadLevel(Levels.GAME_JUSTIN);
 			_tgcc.UpdateBlinkEvent -= ReturnDelBlink;
 		}
+	}
+
+	void ReturnSignal(int value){
+		Debug.Log(value);
 	}
 }

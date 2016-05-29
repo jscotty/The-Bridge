@@ -9,7 +9,7 @@ public class ColorChanger : MonoBehaviour {
 	private SpriteRenderer _spriteRen;
 
 	private float r = 1f,g = 1f,b = 1f;
-	private int _mediCount,_attentionCount,_count;
+	private int _meditationCount, _count;
 
 	private bool menu;
 
@@ -23,20 +23,31 @@ public class ColorChanger : MonoBehaviour {
 	void Update () {
 		if(_tgcc != null){
 
-			if(_count < _attentionCount){
+			/*if(_count < _meditationCount){
 				_count ++;
-				r += 0.03f;
-				g += 0.03f;
-				b += 0.03f;
-			} else if(_count > _attentionCount){
+				r += 0.02f;
+				g += 0.02f;
+				b += 0.02f;
+			} else if(_count > _meditationCount){
 				_count --;
-				r -= 0.03f;
-				g -= 0.03f;
-				b -= 0.03f;
-			} else if(_count == _attentionCount){
+				r -= 0.02f;
+				g -= 0.02f;
+				b -= 0.02f;
+			} else if(_count == _meditationCount){
 
+			}	*/
+			//print("ac: "+_meditationCount);
+			if(_meditationCount >= 50){
+				r += 0.01f;
+				g += 0.01f;
+				b += 0.01f;
+			} else if(_meditationCount < 50){
+				r -= 0.01f;
+				g -= 0.01f;
+				b -= 0.01f;
+			} else if(_count == _meditationCount){
+				
 			}	
-
 			//print("count (" + _count + ") | attention: " + _attentionCount);
 		}
 		if(Input.GetKey(KeyCode.I)){
@@ -67,7 +78,16 @@ public class ColorChanger : MonoBehaviour {
 	}
 
 	void ReturnDelAttention(int value){
-		_attentionCount = value;
+		_meditationCount = value;
 		//print("attention: " + value);
+	}
+	
+	public int meditationCount {
+		get {
+			return _meditationCount;
+		}
+		set {
+			_meditationCount = value;
+		}
 	}
 }
